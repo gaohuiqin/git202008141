@@ -18,6 +18,8 @@ import java.util.HashMap;
  */
 @Configuration
 public class ShiroConfig {
+    private String password;
+
     private Integer timeout;
 
     private String username;
